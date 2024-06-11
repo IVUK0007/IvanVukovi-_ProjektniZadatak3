@@ -1,0 +1,53 @@
+@charset "utf-8" ;
+
+@font-face {
+  font-family: 'IvanVukovicgrfv1';
+  src: url("IvanVukovicgrfv1.ttf") format("ttf");
+  }
+  h1 {
+    font-family: IvanVukovicgrfv1;
+  }
+
+p {
+  color: darkred;
+  font-family: Constantia, "Lucida Bright", "DejaVu Serif", "serif" ;
+  font-size: 14px;
+  line-height: 18px;
+  width: 600px;
+  background-color: whitesmoke;
+  padding: 20px;
+}
+.paragraf_2 {color:darkred; background-clor: rgba(255, 255, 255, 0.5) } 
+.novi_blok{
+  padding:20px ;
+  margin:20px ;
+  width: 50%;
+}
+h1, h2 {
+    font-family: "IvanVukovicgrfv1" , sans-serif;
+    src: url("IvanVukovicgrfv1.ttf");
+    font-family: Gotham, "Helvetica Neue", Helvetica, Arial, "sans-serif" ;
+    color:indianred;
+}
+
+span {color: rgb(255, 30, 0);}
+.pozadina{
+      background-image: url(Slike/background/IvanVukovic_background.jpg) ;
+}
+.drugapozadina{
+  background-color: blue;
+}
+a:link {
+    color: black;
+    background-color: white;
+    padding: 5px;
+    line-height: 40px;
+    border: 1px solid #00000;
+}
+
+a:hover{
+  background-color: yellow;
+}
+img {
+    height: 400px;
+}
